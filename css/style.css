@@ -11,13 +11,27 @@ body{
 }
 
 header{
-	background-color: green;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #4563AB;
 	grid-row: 1 span;
 	/*margin: 10px;*/
 	padding: 10px;
 	border: 1px solid black;
 
 	min-height: 120px;
+	align-items: center;
+}
+
+img{
+	margin: 0px auto;
+	grid-column: 1 span;
+}
+
+h1{
+	text-align: center;
+	size: 2.5em;
+	grid-column: 2 span;
 }
 
 .center{
