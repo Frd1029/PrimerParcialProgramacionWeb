@@ -75,6 +75,8 @@ h3{
 footer{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	background-color: #344B80;
+	color: white;
 
 	grid-row: 1 span;
 	padding: 10px;
@@ -92,7 +94,17 @@ footer{
 
 .footer-rigth{
 	grid-column: 1 span;
+	display: grid;
+	grid-template-columns: 50% 50%;
 	min-height: 80px;
 	max-width: height;: 80px;
 	border-collapse: collapse;
+}
+
+.footer-rigth h1{
+	grid-column: 1 span;
+}
+
+.footer-rigth p{
+	grid-column: 1 span;
 }
